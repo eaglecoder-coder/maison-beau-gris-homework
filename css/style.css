@@ -29,7 +29,7 @@ h1, h2, h3{
     color: var(--color-accent);
 }
 
-/*format header style*/
+/*format header style start*/
 header{
     width: 100%;
     display: flex;
@@ -38,3 +38,37 @@ header{
     align-items: center;
     border-bottom: 1px solid #303840;
 }
+
+.logo{
+    font-size: 1.3rem;
+    color:var(--color-accent)
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--primary-text);
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: var(--color-accent);
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--principal-fond);
+    background-color: var(--color-accent);
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*format header style end*/
+
+/*format hero style start*/
+
+/*format hero style end*/
