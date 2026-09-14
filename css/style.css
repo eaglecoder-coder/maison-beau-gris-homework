@@ -209,3 +209,37 @@ footer{
     border-top: 1px solid #303840;
 }
 /*footer end*/
+
+/* RESPONSIVE */
+    @media (max-width: 800px) {
+
+      nav {
+        display: none;
+      }
+
+      header {
+        padding: 20px;
+      }
+
+      .hero {
+        padding: 70px 20px;
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
