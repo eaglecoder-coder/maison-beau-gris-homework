@@ -1,0 +1,1 @@
+Ceux-ci est un site full HTML/CSS que j'ai codé suite à la formation de réapprentissage. Je viens par ce fait de finaliser la phase 1 et 2. Je publierai d'autres sites afin de garder le cap et maitriser le front-end.
