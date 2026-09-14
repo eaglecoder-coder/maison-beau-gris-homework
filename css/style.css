@@ -24,7 +24,7 @@ body{
     margin: 0;
 }
 
-h1, h2, h3{
+h2, h3{
     font-family: var(--font-title);
     color: var(--color-accent);
 }
@@ -71,4 +71,141 @@ nav a:hover{
 
 /*format hero style start*/
 
+.hero{
+    min-height: 70vh;
+    display: flex;
+    padding: 80px 7%;
+    align-items: center;
+    background: linear-gradient(90deg, #1e242b 35%, rgba(30,36,43,.65)),
+        url("../img/baniere.jpg")
+        center/cover;
+}
+
+h1{
+    font-size: clamp(50px, 8vw, 90px);
+    font-family: var(--font-title);
+    margin-bottom: 20px;
+    font-weight: normal;
+    line-height: .95;
+    
+}
+
+h1 span{
+    color: var(--color-accent);
+}
+.hero-content{
+    max-width: 700px;
+}
+.small-title{
+    color:var(--secondary-text);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.hero p{
+    color: var(--secondary-text);
+    margin-bottom: 25px;
+    max-width: 500px;
+}
 /*format hero style end*/
+
+/*format about style start*/
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 60px;
+}
+
+.about-img{
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ border-radius: 4px;
+}
+
+.about-text p{
+    color: var(--secondary-text);
+    margin: 16px 0;
+}
+/*format about style end*/
+
+/*format menu and card style start*/
+
+.menu{
+    background-color: var(--box-container);
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.card{
+    border: 1px solid #343c44;
+    background: #1e242b;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+
+.card h3{
+    font-family: var(--font-title);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card p{
+    font-size: 14px;
+    color:var(--secondary-text);
+    margin-bottom: 15px;
+}
+
+.btn-card{
+    text-decoration: none;
+    color: var(--principal-fond);
+    background-color: var(--color-accent);
+    padding: 12px 22px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*format menu and card style end*/
+
+
+/*SECTION FORMAT START*/
+section{
+    padding: 90px 7%;
+}
+.section-title{
+    max-width: 700px;
+    margin-bottom: 45px;
+}
+
+.section-title h2{
+    font-size: 42px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+/*SECTION FORMAT END*/
+
+/*footer start*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 7%;
+    font-size: 17px;
+    color: var(--primary-text);
+    border-top: 1px solid #303840;
+}
+/*footer end*/
